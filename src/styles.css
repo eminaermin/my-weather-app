@@ -1,0 +1,29 @@
+body {
+    font-family: 'Courier New', Courier, monospace;
+    margin: auto;
+    padding: 0;
+    background-color: bisque;
+    text-align: center;
+}
+
+header {
+    background-color: aqua;
+}
+
+/* Provided visual representation of what is a valid zipcode to user*/
+input:valid {
+    background-color: ivory;
+    border: none;
+    outline: 2px solid darkseagreen;
+    border-radius: 5px;
+    accent-color: gold;
+}
+
+/* Provided visual representation of what is an invalid zipcode to user*/
+input:invalid{
+    background-color: black;
+    color: white;
+    border: none;
+    outline: 2px solid grey;
+    border-radius: 5px;
+}
