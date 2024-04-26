@@ -6,7 +6,17 @@
         <title>My simple weather app</title>
     </head>
     <body>
-        <h1 id="title">Home page!</h1>
+        <header>
+            <h1 id="title">Home page!</h1>
+        </header>
+
+        <form id="zipForm">
+            <label for="zipCode">Enter your zip code:</label>
+            <!--Making a regex to make sure no other inputs can be submitted in the box-->
+            <input type="text" id="zipCode" name="zipCode" required pattern="[0-9]{5}">
+        </form>
+
+        <div id="result"></div>
     </body>
 
 </html>
